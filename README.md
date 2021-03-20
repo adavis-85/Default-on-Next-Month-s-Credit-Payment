@@ -1,2 +1,5 @@
-# Default-on-Next-Month-s-Credit-Payment
-Default on Next Month's Credit Payment
+# Default on Next Month's Credit Payment - Logistic Regression vs. Neural Network
+
+Logistic regressions is used to model binary variables.  Much of the common statistical programming is done using R.  R has a library called GLM which stands for general linear model.  Julia has a wrapper of the same function in R which is helpful because it allows for ease of use between certain funcitons that are only in Julia, namely Flux.  A previous project had used Flux and Julia to form a neural network to be predict a person defaulting on their credit card within the next month.  This was compared to the same data fitted to a linear regression model using GLM in Julia.  The maximum accuracy for the neural network test was 80%.  The accuracy of the linear regression model on the test data was also 80% but was achievd much much faster.  One run of the GLM takes less than 30 seconds.  The neural network took the same amount of time for the same accuracy at 40 epochs.  
+
+https://en.wikipedia.org/wiki/Logistic_regression
